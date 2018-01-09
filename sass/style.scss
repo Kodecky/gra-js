@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    background-color: lightgray;
+    #js-newGameElement{
+        padding: 10px 0;
+    }
+    #js-playerPickElement{
+        padding-bottom: 50px;
+    }
+    [id*="js-"],
+    [class*="col-"]{
+        font-size: 18px;
+    }
+}
